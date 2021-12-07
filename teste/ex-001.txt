@@ -1,0 +1,23 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	    //Dados
+	     inteiro multiplicacao	
+		real idade = 24
+		real dias = 365
+		real meses = 12
+		
+		escreva("Digite sua idade: ")
+		leia(idade)
+
+		escreva("Com quantos meses?: ")
+		leia(meses)
+		
+		multiplicacao = idade * dias
+
+		escreva("Resultado da multiplicacao: " + multiplicacao)
+
+		escreva("\nÉsta é minha idade em dias")
+		leia(dias)

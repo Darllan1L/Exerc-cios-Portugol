@@ -1,0 +1,26 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro segundos
+		inteiro restoMinutos
+		inteiro restoSegundos
+
+
+		escreva ("Duração em segundos")
+		leia (segundos)
+
+
+		// 1h = 3600seg
+		// 1min = 60seg
+		
+		escreva ( "Duração em Horas: " + ( segundos / 3600 ) + "\n" )
+		restoMinutos = segundos % 3600 
+		
+		escreva ( "Duração em Minutos: " + ( restoMinutos / 60 ) + "\n" )
+		restoSegundos = restoMinutos % 60
+
+		escreva ( "Duração em Segundos: " + ( restoSegundos) + "\n" )
+	}
+}

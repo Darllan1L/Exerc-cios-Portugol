@@ -1,0 +1,26 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro N
+
+		//ESTRADA
+
+		escreva("Digite um numero: ")
+		leia(N)
+
+
+		// PROCESSAMENTO
+
+		se (N > 100) {
+		escreva("O numero é: ", N)
+	     }
+			
+	     senao { 
+		N = 0
+		escreva("O valor é: ", N)
+	     }
+		
+	}
+}

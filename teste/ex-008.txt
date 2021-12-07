@@ -1,0 +1,21 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		   real custoFabrica, valorDistribuidor, valorImposto
+		   inteiro porcemDistribuidor = 28
+		   inteiro porcemImposto = 45
+
+		   escreva("Escreva o valor de custo de fabrica: ")
+		   leia(custoFabrica)
+
+		    
+		   
+		   valorImposto = (custoFabrica * porcemImposto) / 100 + custoFabrica
+
+		   valorDistribuidor =(valorImposto * porcemDistribuidor) /100 + valorImposto
+
+		   escreva("O custo ao consumidor é: " + valorDistribuidor)
+	}
+}

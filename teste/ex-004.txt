@@ -1,0 +1,24 @@
+programa
+{
+	inclua biblioteca Matematica --> mat
+	funcao inicio()
+	{
+		inteiro A,B,C,D,R,S
+		real divisao
+		
+		escreva("\nDigite valor de A: ")
+		leia(A)
+
+		escreva("\nDigite valor de B: ")
+		leia(B)
+
+		escreva("\nDigite valor de C: ")
+		leia(C)
+
+		 //calculo de potencia
+		R = mat.potencia((A+B), 2.0)
+		S = mat.potencia((B+C), 2.0)
+		D = (R+S) /2
+		escreva (" D= " + D)
+		
+		
